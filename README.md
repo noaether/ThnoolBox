@@ -5,3 +5,4 @@ Have you ever wanted a collection of bodged desktop apps that are Lorax themed ?
 - [Thnoogle](src/Thnoogle), a web browser without SSL support
 - [CalculaThneed](src/CalculaThneed), a calculator with an horrible colour theme
 - [MineThneeder](src/MineThneeder), horrible name
+- [ThnextEditor](src/ThnextEditor), horrible name, but it's pretty good :D
