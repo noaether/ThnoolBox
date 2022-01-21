@@ -20,7 +20,6 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(484, 433)
-        self.setStyleSheet("background-color: #121212;")
         self.centralWidget = QtWidgets.QWidget(MainWindow)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Maximum, QtWidgets.QSizePolicy.Maximum)
         sizePolicy.setHorizontalStretch(0)
@@ -42,6 +41,68 @@ class Ui_MainWindow(object):
         self.gridLayout = QtWidgets.QGridLayout()
         self.gridLayout.setSpacing(6)
         self.gridLayout.setObjectName("gridLayout")
+
+#       SPREADSHEETS
+        self.setStyleSheet("background-color: #121212;")
+        self.pushButton_n4.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n1.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n8.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n7.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n6.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n5.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n0.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n2.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n9.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n3.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_add.setStyleSheet("QPushButton {\n"
+                "color: #187B30;\n"
+        "}")
+        self.pushButton_sub.setStyleSheet("QPushButton {\n"
+                "color: #187B30;\n"
+        "}")
+        self.pushButton_mul.setStyleSheet("QPushButton {\n"
+                "color: #187B30;\n"
+        "}")
+        self.pushButton_div.setStyleSheet("QPushButton {\n"
+                "color: #187B30;\n"
+        "}")
+        self.pushButton_ac.setStyleSheet("QPushButton {\n"
+                "color: #7F4236;\n"
+        "}")
+        self.pushButton_mr.setStyleSheet("QPushButton {\n"
+                "color: #FFC107;\n"
+        "}")
+        self.pushButton_m.setStyleSheet("QPushButton {\n"
+                "color: #FFC107;\n"
+        "}")
+        self.pushButton_pc.setStyleSheet("QPushButton {\n"
+                "color: #187B30;\n"
+        "}")
+        self.pushButton_eq.setStyleSheet("QPushButton {\n"
+                "color: #187B30;\n"
+        "}")
+#       /SPREADSHEETS
+
         self.pushButton_n4 = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_n4.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -49,10 +110,8 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_n4.setFont(font)
-        self.pushButton_n4.setStyleSheet("QPushButton {\n"
-"color: #FF8400;\n"
-"}")
         self.pushButton_n4.setObjectName("pushButton_n4")
+
         self.gridLayout.addWidget(self.pushButton_n4, 3, 0, 1, 1)
         self.pushButton_n1 = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_n1.setMinimumSize(QtCore.QSize(0, 50))
@@ -61,11 +120,9 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_n1.setFont(font)
-        self.pushButton_n1.setStyleSheet("QPushButton {\n"
-"color: #FF8400;\n"
-"}")
         self.pushButton_n1.setObjectName("pushButton_n1")
         self.gridLayout.addWidget(self.pushButton_n1, 4, 0, 1, 1)
+
         self.pushButton_n8 = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_n8.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -73,11 +130,9 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_n8.setFont(font)
-        self.pushButton_n8.setStyleSheet("QPushButton {\n"
-"color: #FF8400;\n"
-"}")
         self.pushButton_n8.setObjectName("pushButton_n8")
         self.gridLayout.addWidget(self.pushButton_n8, 2, 1, 1, 1)
+
         self.pushButton_mul = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_mul.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -87,6 +142,7 @@ class Ui_MainWindow(object):
         self.pushButton_mul.setFont(font)
         self.pushButton_mul.setObjectName("pushButton_mul")
         self.gridLayout.addWidget(self.pushButton_mul, 2, 3, 1, 1)
+
         self.pushButton_n7 = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_n7.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -94,11 +150,9 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_n7.setFont(font)
-        self.pushButton_n7.setStyleSheet("QPushButton {\n"
-"color: #FF8400;\n"
-"}")
         self.pushButton_n7.setObjectName("pushButton_n7")
         self.gridLayout.addWidget(self.pushButton_n7, 2, 0, 1, 1)
+
         self.pushButton_n6 = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_n6.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -106,11 +160,9 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_n6.setFont(font)
-        self.pushButton_n6.setStyleSheet("QPushButton {\n"
-"color: #FF8400;\n"
-"}")
         self.pushButton_n6.setObjectName("pushButton_n6")
         self.gridLayout.addWidget(self.pushButton_n6, 3, 2, 1, 1)
+
         self.pushButton_n5 = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_n5.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -118,11 +170,9 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_n5.setFont(font)
-        self.pushButton_n5.setStyleSheet("QPushButton {\n"
-"color: #FF8400;\n"
-"}")
         self.pushButton_n5.setObjectName("pushButton_n5")
         self.gridLayout.addWidget(self.pushButton_n5, 3, 1, 1, 1)
+
         self.pushButton_n0 = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_n0.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -130,11 +180,9 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_n0.setFont(font)
-        self.pushButton_n0.setStyleSheet("QPushButton {\n"
-"color: #FF8400;\n"
-"}")
         self.pushButton_n0.setObjectName("pushButton_n0")
         self.gridLayout.addWidget(self.pushButton_n0, 5, 0, 1, 1)
+
         self.pushButton_n2 = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_n2.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -142,11 +190,9 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_n2.setFont(font)
-        self.pushButton_n2.setStyleSheet("QPushButton {\n"
-"color: #FF8400;\n"
-"}")
         self.pushButton_n2.setObjectName("pushButton_n2")
         self.gridLayout.addWidget(self.pushButton_n2, 4, 1, 1, 1)
+
         self.pushButton_n9 = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_n9.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -154,11 +200,9 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_n9.setFont(font)
-        self.pushButton_n9.setStyleSheet("QPushButton {\n"
-"color: #FF8400;\n"
-"}")
         self.pushButton_n9.setObjectName("pushButton_n9")
         self.gridLayout.addWidget(self.pushButton_n9, 2, 2, 1, 1)
+
         self.pushButton_n3 = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_n3.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -166,11 +210,9 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_n3.setFont(font)
-        self.pushButton_n3.setStyleSheet("QPushButton {\n"
-"color: #FF8400;\n"
-"}")
         self.pushButton_n3.setObjectName("pushButton_n3")
         self.gridLayout.addWidget(self.pushButton_n3, 4, 2, 1, 1)
+
         self.pushButton_div = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_div.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -180,6 +222,7 @@ class Ui_MainWindow(object):
         self.pushButton_div.setFont(font)
         self.pushButton_div.setObjectName("pushButton_div")
         self.gridLayout.addWidget(self.pushButton_div, 1, 3, 1, 1)
+
         self.pushButton_sub = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_sub.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -189,6 +232,7 @@ class Ui_MainWindow(object):
         self.pushButton_sub.setFont(font)
         self.pushButton_sub.setObjectName("pushButton_sub")
         self.gridLayout.addWidget(self.pushButton_sub, 3, 3, 1, 1)
+
         self.pushButton_add = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_add.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -199,19 +243,6 @@ class Ui_MainWindow(object):
         self.pushButton_add.setObjectName("pushButton_add")
         self.gridLayout.addWidget(self.pushButton_add, 4, 3, 1, 1)
 
-        self.pushButton_add.setStyleSheet("QPushButton {\n"
-"color: #187B30;\n"
-"}")
-        self.pushButton_sub.setStyleSheet("QPushButton {\n"
-"color: #187B30;\n"
-"}")
-        self.pushButton_mul.setStyleSheet("QPushButton {\n"
-"color: #187B30;\n"
-"}")
-        self.pushButton_div.setStyleSheet("QPushButton {\n"
-"color: #187B30;\n"
-"}")
-
         self.pushButton_ac = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_ac.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -219,11 +250,9 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pushButton_ac.setFont(font)
-        self.pushButton_ac.setStyleSheet("QPushButton {\n"
-"    color: #7F4236;\n"
-"}")
         self.pushButton_ac.setObjectName("pushButton_ac")
         self.gridLayout.addWidget(self.pushButton_ac, 1, 0, 1, 1)
+
         self.pushButton_mr = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_mr.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -231,11 +260,9 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pushButton_mr.setFont(font)
-        self.pushButton_mr.setStyleSheet("QPushButton {\n"
-"   color: #FFC107;\n"
-"}")
         self.pushButton_mr.setObjectName("pushButton_mr")
         self.gridLayout.addWidget(self.pushButton_mr, 1, 2, 1, 1)
+
         self.pushButton_m = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_m.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -243,11 +270,9 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setWeight(50)
         self.pushButton_m.setFont(font)
-        self.pushButton_m.setStyleSheet("QPushButton {\n"
-"   color: #FFC107;\n"
-"}")
         self.pushButton_m.setObjectName("pushButton_m")
         self.gridLayout.addWidget(self.pushButton_m, 1, 1, 1, 1)
+
         self.pushButton_pc = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_pc.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -256,10 +281,8 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         self.pushButton_pc.setFont(font)
         self.pushButton_pc.setObjectName("pushButton_pc")
-        self.pushButton_pc.setStyleSheet("QPushButton {\n"
-"color: #187B30;\n"
-"}")
         self.gridLayout.addWidget(self.pushButton_pc, 5, 1, 1, 1)
+
         self.pushButton_eq = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_eq.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -267,11 +290,9 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_eq.setFont(font)
-        self.pushButton_eq.setStyleSheet("QPushButton {\n"
-"color: #187B30;\n"
-"}")
         self.pushButton_eq.setObjectName("pushButton_eq")
         self.gridLayout.addWidget(self.pushButton_eq, 5, 2, 1, 2)
+
         self.verticalLayout.addLayout(self.gridLayout)
         self.verticalLayout_2.addLayout(self.verticalLayout)
         MainWindow.setCentralWidget(self.centralWidget)
