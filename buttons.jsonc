@@ -1,0 +1,9 @@
+{
+    "buttons": [
+        {
+            "name": "💻 Build",
+            "script": "start.bat",
+            "description": "Compile all Thneed apps"
+        }
+    ]
+}
