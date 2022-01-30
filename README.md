@@ -4,10 +4,12 @@ Have you ever wanted a collection of bodged desktop apps that are Lorax themed ?
 
 ## Apps & their downsides
 
-- [CalculaThneed](src/CalculaThneed/calculator.py) Awful colour theme
-- [MineThneeder](src/MineSweeper/minesweeper.py) Useless things in it
-- [ThnextEditor](src/ThnextEditor/wordprocessor.py) Horrible horrible name
-- [Thnoogle](src/Thnoogle/thnoogle.py) Web browser without SSL support
+- [CalculaThneed](src/CalculaThneed/main.py) Awful colour theme
+- [MineThneeder](src/MineSweeper/main.py) Useless things in it
+- [ThnextEditor](src/ThnextEditor/main.py) Horrible horrible name
+- [Thnoogle](src/Thnoogle/main.py) Web browser without SSL support
+- [Thnotes](src/Thnotes/main.py) Sticky notes that you can't save
+- [ThneediaPlayer](src/ThneediaPlayer/main.py) Actually good app ig
 
 ## Behind the scenes
 
