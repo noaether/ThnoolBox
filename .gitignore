@@ -151,3 +151,5 @@ cython_debug/
 
 # Custom
 apps/
+*.mp4
+*.db

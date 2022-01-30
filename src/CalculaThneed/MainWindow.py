@@ -42,67 +42,6 @@ class Ui_MainWindow(object):
         self.gridLayout.setSpacing(6)
         self.gridLayout.setObjectName("gridLayout")
 
-#       SPREADSHEETS
-        self.setStyleSheet("background-color: #121212;")
-        self.pushButton_n4.setStyleSheet("QPushButton {\n"
-                "color: #FF8400;\n"
-        "}")
-        self.pushButton_n1.setStyleSheet("QPushButton {\n"
-                "color: #FF8400;\n"
-        "}")
-        self.pushButton_n8.setStyleSheet("QPushButton {\n"
-                "color: #FF8400;\n"
-        "}")
-        self.pushButton_n7.setStyleSheet("QPushButton {\n"
-                "color: #FF8400;\n"
-        "}")
-        self.pushButton_n6.setStyleSheet("QPushButton {\n"
-                "color: #FF8400;\n"
-        "}")
-        self.pushButton_n5.setStyleSheet("QPushButton {\n"
-                "color: #FF8400;\n"
-        "}")
-        self.pushButton_n0.setStyleSheet("QPushButton {\n"
-                "color: #FF8400;\n"
-        "}")
-        self.pushButton_n2.setStyleSheet("QPushButton {\n"
-                "color: #FF8400;\n"
-        "}")
-        self.pushButton_n9.setStyleSheet("QPushButton {\n"
-                "color: #FF8400;\n"
-        "}")
-        self.pushButton_n3.setStyleSheet("QPushButton {\n"
-                "color: #FF8400;\n"
-        "}")
-        self.pushButton_add.setStyleSheet("QPushButton {\n"
-                "color: #187B30;\n"
-        "}")
-        self.pushButton_sub.setStyleSheet("QPushButton {\n"
-                "color: #187B30;\n"
-        "}")
-        self.pushButton_mul.setStyleSheet("QPushButton {\n"
-                "color: #187B30;\n"
-        "}")
-        self.pushButton_div.setStyleSheet("QPushButton {\n"
-                "color: #187B30;\n"
-        "}")
-        self.pushButton_ac.setStyleSheet("QPushButton {\n"
-                "color: #7F4236;\n"
-        "}")
-        self.pushButton_mr.setStyleSheet("QPushButton {\n"
-                "color: #FFC107;\n"
-        "}")
-        self.pushButton_m.setStyleSheet("QPushButton {\n"
-                "color: #FFC107;\n"
-        "}")
-        self.pushButton_pc.setStyleSheet("QPushButton {\n"
-                "color: #187B30;\n"
-        "}")
-        self.pushButton_eq.setStyleSheet("QPushButton {\n"
-                "color: #187B30;\n"
-        "}")
-#       /SPREADSHEETS
-
         self.pushButton_n4 = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_n4.setMinimumSize(QtCore.QSize(0, 50))
         font = QtGui.QFont()
@@ -312,6 +251,67 @@ class Ui_MainWindow(object):
         self.menuFile.addAction(self.actionReset)
         self.menuFile.addAction(self.actionExit)
         self.menuBar.addAction(self.menuFile.menuAction())
+        
+        #       SPREADSHEETS
+        self.setStyleSheet("background-color: #121212;")
+        self.pushButton_n4.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n1.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n8.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n7.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n6.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n5.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n0.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n2.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n9.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_n3.setStyleSheet("QPushButton {\n"
+                "color: #FF8400;\n"
+        "}")
+        self.pushButton_add.setStyleSheet("QPushButton {\n"
+                "color: #187B30;\n"
+        "}")
+        self.pushButton_sub.setStyleSheet("QPushButton {\n"
+                "color: #187B30;\n"
+        "}")
+        self.pushButton_mul.setStyleSheet("QPushButton {\n"
+                "color: #187B30;\n"
+        "}")
+        self.pushButton_div.setStyleSheet("QPushButton {\n"
+                "color: #187B30;\n"
+        "}")
+        self.pushButton_ac.setStyleSheet("QPushButton {\n"
+                "color: #7F4236;\n"
+        "}")
+        self.pushButton_mr.setStyleSheet("QPushButton {\n"
+                "color: #FFC107;\n"
+        "}")
+        self.pushButton_m.setStyleSheet("QPushButton {\n"
+                "color: #FFC107;\n"
+        "}")
+        self.pushButton_pc.setStyleSheet("QPushButton {\n"
+                "color: #187B30;\n"
+        "}")
+        self.pushButton_eq.setStyleSheet("QPushButton {\n"
+                "color: #187B30;\n"
+        "}")
+#       /SPREADSHEETS
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
